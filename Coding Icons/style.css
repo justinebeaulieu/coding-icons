@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container ul {
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container ul li {
+    width: 70px;
+    margin: 1rem;
+    height: 70px;
+    display: flex;
+    font-size: 40px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s linear;
+    border: 1px solid rgb(195, 194, 211);
+}
+
+ul li a {
+    color: rgb(12, 7, 110);
+}
+
+.container ul li:hover {
+    transform: translate(5px, -5px);
+}
+
+.html5:hover i,
+.html5:hover {
+    color: white;
+    background-color: orangered;
+}
+
+.css:hover i,
+.css:hover {
+    color: white;
+    background-color: blue;
+}
+
+.java:hover i,
+.java:hover {
+    color: white;
+    background-color: yellow;
+}
+
+.react:hover i,
+.react:hover {
+    color: white;
+    background-color: paleturquoise;
+}
+
+.tailwind:hover i,
+.tailwind:hover {
+    color: white;
+    background-color: turquoise;
+}
+
+.github:hover i,
+.github:hover {
+    color: white;
+    background-color: black;
+}
